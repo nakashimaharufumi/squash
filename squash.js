@@ -24,6 +24,7 @@ function draw() {
             textSize(50);
             text("click to start", 540, 400);
             if (mouseIsPressed) cs = 1;
+            score = 0;
             break;
         case 1:
             //clear();
